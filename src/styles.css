@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+.sidebar{
+    padding: 0;
+    position: relative;
+    top: 0;
+}
+.user-pic {
+    border-radius: 140px;
+    width: 60%;
+    padding: 9px 0 12px;
+}
+.sidebarWrapper {
+    text-align: center;
+    box-shadow: 0 3px 10px 3px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    padding: 27px 0 0;
+    width: 100%;
+    background-color: blueviolet;
+}
+.signature {
+    text-align: center;
+    padding: 9px 0 12px;
+}
+
+.lines {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    vertical-align: middle;
+}
+
+.sidebar .nav {
+    padding: 20px 30px;
+    background: #fff none repeat scroll 0 0;
+    padding: 20px 30px;
+}
+
+.copyright {
+    font-size: 13px;
+    padding: 30px 0;
+}
+.footer-background {
+    background-color: blueviolet;
+}
